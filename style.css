@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan+2|Sen&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index:10;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+    padding: 0 !important;
+}
+
+.navbar-brand {
+    height: 50px;
+    padding-left: 20px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+  color: white !important;
+  font-weight: 600;
+  float: right;
+   text-align: left;
+
+}
+
+.fa-bars {
+    color: white;
+    font-size: 30px !important;
+}
+
+.navbar-toggler {
+    outline: none !important;
+}
+
+.promo-title {
+    font-size: 60px;
+    font-weight: 600;
+    margin-top:100px;
+    font-family: 'Baloo Chettan 2', cursive;
+}
+.promo-subtitle {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top:10px;
+    font-family: 'Sen', sans-serif;
+    color: white;
+}
+
+.promo-subsubtitle {
+    padding-top:20%;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top:10px;
+    font-family: 'Baloo Chettan 2', cursive;
+    color: white;
+}
+/*---banner-----*/
+
+#banner {
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+    color: #fff;
+    padding-top: 5%;
+}
+
+.img-fluid {
+    width: 50%;
+    height: 60%;
+}
+
+/*----blogs section-----*/
+
+#blogs {
+    padding: 80px 0;
+}
+
+.blogs-img {
+    width: 100px;
+    height: 100px;
+}
+
+.services {
+    padding: 20px;
+}
+
+.services h4 {
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-family: 'Sen', sans-serif;
+}
+
+.blogs-title {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Sen', sans-serif;
+    color: black;
+    padding-bottom: 20px;
+}
+
+/*----projects section-----------*/
+
+#projects {
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+/*----contact------*/
+
+#contact {
+    background: #f8f9fa;
+    padding: 50px 0;
+}
+
+.social-icons a{
+    padding-right: 30px;
+}
+
+.social-icons a:hover i {
+    transform: translateY(-5px);
+}
